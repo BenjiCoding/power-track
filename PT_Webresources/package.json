@@ -1,0 +1,33 @@
+{
+  "name": "pt_webresources",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.dev.js",
+    "dist": "webpack --config webpack.prod.js",
+    "start": "webpack --watch --config webpack.dev.js",
+    "format": "prettier ./src/code/**/*.ts --write",
+    "lint": "eslint ./src/code/**/*.ts --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "@types/xrm": "^9.0.88",
+    "@typescript-eslint/eslint-plugin": "^8.53.1",
+    "@typescript-eslint/parser": "^8.53.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-webpack-plugin": "^5.0.2",
+    "prettier": "^3.8.1",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-merge": "^6.0.1"
+  }
+}
