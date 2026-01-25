@@ -24,3 +24,5 @@ Thumbs.db
 .env
 .env.*.local
 
+# Dataverse devtool
+dvdt.linker.xml
