@@ -26,3 +26,13 @@ Thumbs.db
 
 # Dataverse devtool
 dvdt.linker.xml
+
+# generated directory
+**/generated
+
+# output directory
+/out
+
+# msbuild output directories
+/bin
+/obj
